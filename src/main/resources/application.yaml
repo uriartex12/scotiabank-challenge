@@ -1,0 +1,8 @@
+server:
+  port: 5000
+
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///school-h2
+  main:
+    allow-bean-definition-overriding: true
